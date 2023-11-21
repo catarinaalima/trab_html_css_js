@@ -9,3 +9,8 @@ body {
     align-items: center;
   
   }
+  .calculadora-title {
+    font-size: 40px; 
+    margin-top: 20px;
+    color: #bbb5ba;
+  }
