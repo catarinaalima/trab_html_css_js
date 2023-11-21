@@ -32,3 +32,16 @@ input{
     margin-bottom: 30px;
     box-sizing: border-box;
   }
+button {
+    background-color: #811265;
+    color: #fff;
+    padding: 13px;
+    margin-left: 200px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+button:hover {
+    background-color: #bb399f;
+  }
