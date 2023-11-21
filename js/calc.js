@@ -45,3 +45,14 @@ function calcplanosoperadoraB(imc) {
 
     return { planobasico, planostandard, planopremium };
   }
+function resultados(operadoraA, operadoraB) {
+    document.getElementById('planobasicoA').textContent = operadoraA.planobasico.toFixed(2);
+    document.getElementById('planostandardA').textContent = operadoraA.planostandard.toFixed(2);
+    document.getElementById('planopremiumA').textContent = operadoraA.planopremium.toFixed(2);
+
+    document.getElementById('planobasicoB').textContent = operadoraB.planobasico.toFixed(2);
+    document.getElementById('planostandardB').textContent = operadoraB.planostandard.toFixed(2);
+    document.getElementById('planopremiumB').textContent = operadoraB.planopremium.toFixed(2);
+
+    document.getElementById('results').style.display = 'block';
+  }
