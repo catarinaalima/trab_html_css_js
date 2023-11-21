@@ -61,3 +61,11 @@ button:hover {
     text-align: center;
     
   }
+
+th, td {
+    border: 3px solid black;
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
