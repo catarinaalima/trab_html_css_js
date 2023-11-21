@@ -45,3 +45,19 @@ button {
 button:hover {
     background-color: #bb399f;
   }
+
+.informacoes {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #511f51;
+    border-radius: 8px;
+   
+  }
+  
+.informacoes h2 {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 16px;
+    text-align: center;
+    
+  }
