@@ -14,6 +14,23 @@
   <title>Calculadora de IMC</title> 
 </head>
 <body>
-    
+    <div class="calculadora">
+      <strong> <div class="calculadora-title">Calculadora de Planos e IMC</div></strong>
+      <form id="form">
+  
+        <label for="idade">Idade:</label> <br>
+        <input type="number" id="idade" placeholder="Insira sua idade" required>
+  
+        <label for="peso">Peso (em kg):</label> <br>
+        <input type="number" id="peso" step="0.01" placeholder="Insira seu peso" required>
+  
+        <label for="altura">Altura (em m):</label> <br>
+        <input type="number" id="altura" step="0.01" placeholder="Insira sua altura" required>
+  
+        <button type="submit">Calcular custo total</button> <br>
+      </form>
+  
+      <div id="resultado"></div>
+    </div>
 </body>
 </html>
