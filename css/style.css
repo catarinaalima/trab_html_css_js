@@ -69,3 +69,10 @@ th, td {
     padding-left: 50px;
     padding-right: 50px;
   }
+
+.informacoes p {
+    color: #bbb5ba;
+    margin-top: 15px;
+    font-size: 16px;
+  }
+  
