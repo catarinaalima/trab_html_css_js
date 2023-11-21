@@ -1,0 +1,11 @@
+body {
+    font-family: 'Arial';
+    color: aliceblue;
+    background-color: #6e386e;
+    margin: 20px;
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  
+  }
