@@ -56,3 +56,25 @@ function resultados(operadoraA, operadoraB) {
 
     document.getElementById('results').style.display = 'block';
   }
+  
+function recomendar(operadoraA, operadoraB) {
+    const planosA = Object.entries(operadoraA);
+    const planosB = Object.entries(operadoraB);
+
+    const custototalA = planosA.reduce((acc, [_, preco]) => acc + preco, 0);
+    const custototalB = planosB.reduce((acc, [_, preco]) => acc + preco, 0);
+
+    let recomendacao = '';
+
+    if (custototalA < custototalB) {
+      recomendacao = `Recomenda-se a Operadora A com um custo total estimado de ${custototalA.toFixed(2)}`;
+    } else if (custototalB < custototalA) {
+      recomendacao = `Recomenda-se a Operadora B com um custo total estimado de ${custototalB.toFixed(2)}`;
+    } else {
+      recomendacao = 'Ambas as operadoras oferecem planos com custos totais similares.';
+    }
+
+    document.getElementById('recomendacao').textContent = recomendacao;
+    document.getElementById('recomendacao').style.display = 'block';
+  }
+});
